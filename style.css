@@ -1,0 +1,125 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100Vh;
+    position: relative;
+
+    background: url(https://cdn.openart.ai/stable_diffusion/93aaab143ed0d40730249d395d185ff5f60f58c4_2000x2000.webp) center /cover;
+    backdrop-filter: blur(7px);
+    /* left: 20%; */
+    /* margin-top: 10REM; */
+ }
+
+.table{
+
+    width: 60vw;
+    height: 90vh;
+    background-color: rgba(221, 227, 225, 0.243);
+    overflow-y: scroll;
+    border-radius: 5px;
+    
+}
+
+.table::-webkit-scrollbar{
+
+    overflow: hidden;
+}
+
+table{
+
+    border-collapse: collapse;
+    width: 98%;
+    margin-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+tbody td img{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+table,th,td{
+
+    padding: 1.7rem;
+    font-weight: 700;
+
+}
+
+thead {
+
+    background-color: rgb(183, 196, 196);
+    border-collapse: collapse;
+    font-size: 1.2rem;
+}
+
+.header{
+
+    border-collapse: collapse;
+    height: 60px;
+    padding: 1rem;
+    background-color: rgba(221, 227, 225, 0.243);
+    width: 100%;
+
+    
+}
+
+.body tr:hover{
+
+    background-color: rgb(183, 196, 196);
+
+}
+
+.body{
+
+    background-color: rgba(221, 227, 225, 0.954);
+    border-collapse: collapse;
+    border: 0px;
+
+}
+
+.delivered{
+
+    background-color: rgb(113, 177, 113);
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+
+    
+}
+
+.canceled{
+
+    background-color: rgb(216, 128, 128);
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+
+
+
+}
+
+.shipped{
+
+    background-color: skyblue;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+
+
